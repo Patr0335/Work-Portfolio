@@ -1,0 +1,29 @@
+{
+  "name": "work-portfolio",
+  "version": "1.0.0",
+  "description": "Project made to showcase my portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "cross-env PORT=3000 nodemon app.js",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Patr0335/Work-Portfolio.git"
+  },
+  "keywords": [
+    "SSR",
+    "Express"
+  ],
+  "author": "Patrick Lindahl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Patr0335/Work-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Patr0335/Work-Portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
